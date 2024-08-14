@@ -31,6 +31,9 @@ devDependencies:
   eslint-config-next:
     specifier: 14.2.5
     version: 14.2.5(eslint@8.57.0)(typescript@5.5.4)
+  immer:
+    specifier: ^10.1.1
+    version: 10.1.1
   postcss:
     specifier: ^8
     version: 8.4.41
@@ -1518,6 +1521,10 @@ packages:
   /ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
+    dev: true
+
+  /immer@10.1.1:
+    resolution: {integrity: sha512-s2MPrmjovJcoMaHtx6K11Ra7oD05NT97w1IC5zpMkT6Atjr7H8LjaDd81iIxUYpMKSRRNMJE703M1Fhr/TctHw==}
     dev: true
 
   /import-fresh@3.3.0:
