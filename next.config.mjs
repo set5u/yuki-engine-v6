@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import createNextJsObfuscator from "nextjs-obfuscator";
+
+const withNextJsObfuscator = createNextJsObfuscator({
+  optionsPreset: "high-obfuscation",
+});
+const nextConfig = withNextJsObfuscator({
+  output: "export",
+});
 
 export default nextConfig;
